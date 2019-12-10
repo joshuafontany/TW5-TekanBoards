@@ -1,7 +1,3 @@
-* //<a href="https://ibnishak.github.io/TW5-TekanBoards" style="color:#e60909;" target="_blank">Demo</a>
-* //<a href="https://ibnishak.github.io/Tekkan/" style="color:#e60909;" target="_blank">Documentation</a>
-
-
 **New in TekanBoards (previously Tekkan One)**
 
 * Switch seemelssy between Wiki and TekanBoard modes.

@@ -15,13 +15,13 @@
 TekanBoards is a generic kanban-like solution for managing "boards" "lists" and "cards", packaged as a Tiddlywiki5 plugin. The intent is to allow custom styles, buttons, and templates to extent the use beyond kanban-like project management.
 
 See:
-* <a href="https://joshuafontany.github.io/TW5-TekanBoards" style="color:#e60909;" target="_blank">Demo</a>
+* <a href="https://joshuafontany.github.io/TW5-TekanBoards" style="color:#e60909;" target="_blank">TekanBoards Demo</a>
 
 Tekkan One is an all-in-one cross-platform Kanban solution that can be used offline. Tekkan One is aimed specifically at kanban-like project management, and was created using  <a href="http://tiddlywiki.com/" target="_blank">TW5</a>
 
 See:
-* <a href="https://ibnishak.github.io/Tekkan/Tekkan%20Demo.html" style="color:#e60909;" target="_blank">Demo</a>
-* <a href="https://ibnishak.github.io/Tekkan/" style="color:#e60909;" target="_blank">Documentation</a>
+* <a href="https://ibnishak.github.io/Tekkan/Tekkan%20Demo.html" style="color:#e60909;" target="_blank">Tekkan One Demo</a>
+* <a href="https://ibnishak.github.io/Tekkan/" style="color:#e60909;" target="_blank">Tekkan One Documentation</a>
 
 
 ### How to install

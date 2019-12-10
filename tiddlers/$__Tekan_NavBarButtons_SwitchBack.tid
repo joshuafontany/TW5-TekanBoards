@@ -1,15 +1,13 @@
 created: 20170923171537598
-modified: 20191210193648057
+modified: 20191210204654248
 tags: $:/Tekan/Button $:/Tekan/NavBarButtons
 title: $:/Tekan/NavBarButtons/SwitchBack
 type: text/vnd.tiddlywiki
 
 <$button tooltip="Switch back to TW5">@@fill:white;{{$:/core/images/opacity}}@@
-<$list filter="[all[shadows+tiddlers]tag[TwelloMode]!has[draft.of]]">
+<$list filter="[all[shadows+tiddlers]tag[TekanMode]!has[draft.of]]">
 <$action-setfield tags="$:/tags/PageTemplate"/>
 </$list>
-<$list filter="[all[shadows+tiddlers]tag[$:/Tekan/Substyles]!has[draft.of]]">
-<$action-setfield tags="$:/Tekan/Substyles"/>
-</$list>
+<$action-setfield $tiddler="$:/Tekan/Substyles" tags="$:/Tekan"/>
 <$action-setfield $tiddler="$:/Tekan/Main" tags="$:/Tekan"/>
 </$button>

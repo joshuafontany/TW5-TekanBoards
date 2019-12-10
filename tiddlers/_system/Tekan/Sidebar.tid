@@ -1,6 +1,6 @@
 caption: Sidebar
 created: 20170928170709949
-modified: 20170930092121359
+modified: 20191210210812185
 tags: $:/Tekan
 title: $:/Tekan/Sidebar
 type: text/vnd.tiddlywiki
@@ -13,39 +13,40 @@ type: text/vnd.tiddlywiki
 \end
 
 
-<$reveal state="$:/state/tekansidebar" type="match" text="show" class="animated fadeIn">
+<$reveal state="$:/state/tekan/sidebar" type="match" text="show" class="animated fadeIn">
 
 <div class="sidebar">
 <div class="header">
-      <span class="sidebartitle">Settings</span>
+      <span class="sidebartitle">Test<br/>Board Settings</span>
       <$button 
       		class="tc-btn-invisible" 
       		style="float:right;fill:#acacac;" 
-            set="$:/state/tekansidebar" 
+            set="$:/state/tekan/sidebar" 
             setTo="">{{$:/core/images/close-button}}
  	  </$button>
-</div>
-<hr>
-<div class="settingsbutton">
-<$reveal state="$;/state/scrolly" type="match" text="show">
-<$button set="$;/state/scrolly" setTo="" class="button-link">Scroll Y
-<$action-listops $tiddler="$:/Tekan/Palette/ScrollYStyles" $tags="$:/tags/Stylesheet"/>
-</$button>
-</$reveal>
-<$reveal state="$;/state/scrolly" type="nomatch" text="show">
-<$button set="$;/state/scrolly" setTo="show" class="button-link">Scroll X
-<$action-listops $tiddler="$:/Tekan/Palette/ScrollYStyles" $tags="-$:/tags/Stylesheet"/>
-</$button>
-</$reveal>
-<$list filter="[tag[$:/tags/SideBarButton]]"><$transclude/></$list>
-</div>
-<hr>
-<div class="palettebtn">
+</div><hr><div class="palettebtn">
 <$set name="currentBoard" value={{$:/Tekan/CurrentBoard}}>
 <$list filter="[tag[$:/Tekan/Palette]]">
 <$macrocall $name="themebutton" bg={{##bg}}/>
 </$list>
 </$set>
 </div>
+<hr>
+<div class="settingsbutton">
+<$reveal state="$:/state/tekan/scrolly" type="match" text="show">
+<$button set="$:/state/tekan/scrolly" setTo="" class="button-link">Scroll Y
+<$action-listops $tiddler="$:/Tekan/Palette/ScrollYStyles" $tags="$:/tags/Stylesheet"/>
+</$button>
+</$reveal>
+<$reveal state="$:/state/tekan/scrolly" type="nomatch" text="show">
+<$button set="$:/state/tekan/scrolly" setTo="show" class="button-link">Scroll X
+<$action-listops $tiddler="$:/Tekan/Palette/ScrollYStyles" $tags="-$:/tags/Stylesheet"/>
+</$button>
+</$reveal>
+<$list filter="[tag[$:/tags/SideBarButton]]"><$transclude/></$list>
+</div>
+
+
+
 </div>
 </$reveal>

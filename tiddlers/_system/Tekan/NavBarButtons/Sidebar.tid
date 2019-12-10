@@ -1,0 +1,9 @@
+created: 20191210205224539
+modified: 20191210205812769
+tags: $:/Tekan/Button $:/Tekan/NavBarButtons
+title: $:/Tekan/NavBarButtons/Sidebar
+type: text/vnd.tiddlywiki
+
+<$button set="$:/state/tekan/sidebar" setTo="show"  style="fill:#fff;" tooltip="Open the Tekan Sidebar">
+{{$:/core/images/chevron-left}}
+</$button>

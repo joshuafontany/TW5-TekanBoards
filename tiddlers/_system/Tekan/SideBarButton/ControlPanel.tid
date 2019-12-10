@@ -1,0 +1,7 @@
+created: 20170929193032064
+modified: 20191210210321753
+tags: $:/tags/SideBarButton
+title: $:/Tekan/SideBarButton/ControlPanel
+type: text/vnd.tiddlywiki
+
+<$button message="tm-modal" param="$:/Tekan/ControlPanelTab" class="button-link">Tekan Settings</$button>

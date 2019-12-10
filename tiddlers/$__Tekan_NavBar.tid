@@ -1,7 +1,7 @@
 caption: NavBar
 created: 20170913174601878
 creator: Riz
-modified: 20170929040408132
+modified: 20191210205316001
 modifier: Riz
 tags: $:/Tekan
 title: $:/Tekan/NavBar
@@ -13,9 +13,9 @@ type: text/vnd.tiddlywiki
 		</div>
 
 		<div class="header-user">
-<span class="header-btn-icon">{{$:/Tekan/NavBarButtons}}</span>
+    		<span class="header-btn-icon">{{$:/Tekan/NavBarButtons}}</span>
 		</div>
-	</nav>
-<nav class="navbar board"><$set name="currentBoard" filter="[{$:/Tekan/CurrentBoard}minlength[1]]" value={{$:/Tekan/CurrentBoard}} emptyValue="You need to either create a board or switch to an existing one"><$text text=<<currentBoard>>/></$set><$button set="$:/state/tekansidebar" setTo="show" class="tc-btn-invisible sidebarbtn">Open Sidebar</$button></nav>
+</nav>
+<nav class="navbar board"><$set name="currentBoard" filter="[{$:/Tekan/CurrentBoard}minlength[1]]" value={{$:/Tekan/CurrentBoard}} emptyValue="You need to either create a board or switch to an existing one"><$text text=<<currentBoard>>/></$set></nav>
 
 

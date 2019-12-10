@@ -1,0 +1,50 @@
+/* ----- Add New board ------*/
+.pop-over {
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #D6DADC;
+	border-bottom-color: #C4C9CC;
+	box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	overflow: hidden;
+	width: 300px;
+	z-index: 70;
+	-webkit-transform: translate3d(0,0,0);
+	position: absolute;
+	right: 0;
+	top: 0;
+    font-size: 14px;
+}
+.pop-over-header {
+	height: 36px;
+	position: relative;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.pop-over-header-title {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #838c91;
+	display: block;
+	line-height: 36px;
+	border-bottom: 1px solid #D6DADC;
+	margin: 0 10px;
+	overflow: hidden;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	z-index: 1;
+	font-size: 14px;
+}
+.pop-over-content {
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0 10px 10px;
+}
+label{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 4px;
+	color: #333;
+}
+
+/*--------------*/

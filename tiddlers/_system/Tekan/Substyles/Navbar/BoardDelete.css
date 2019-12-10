@@ -1,0 +1,75 @@
+/* ------ Delete board popup  ------*/
+.md-modal {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	width: 50%;
+	max-width: 630px;
+	min-width: 320px;
+	height: auto;
+	z-index: 2000;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.md-content {
+	color: #fff;
+	background: #e74c3c;
+	position: absolute;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.md-content h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px 3px 0 0;
+}
+.md-content > div {
+	padding: 15px 40px 30px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 20px;
+  text-align: center;
+}
+
+
+.md-content > div p {
+	margin: 0;
+	padding: 10px 0;
+}
+.md-content button {
+	
+	margin: 0 auto;
+	font-size: 0.8em;
+  border: none;
+	padding: 0.6em 1.2em;
+	background: #c0392b;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	
+	border-radius: 2px;
+}
+
+.mdbuttons {
+	margin: auto;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 40%;
+	padding: 5% 0;
+}
+
+/** ------------**/

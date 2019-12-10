@@ -1,0 +1,35 @@
+/**-----Board Select-----**/
+.whitebgdropdown {
+	width: 280px;
+	overflow: hidden;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 7px 0 7px 0;
+	margin: 10px 0 0 0;
+	white-space: nowrap;
+	text-shadow: none;
+	top: 45px;
+	z-index: 60;
+	line-height: 1.4;
+	box-shadow: 0 3px 6px rgba(0,0,0,.4);
+}
+.whitebgdropdown a, .whitebgdropdown button {
+	display: block;
+	padding: 0 10px 0 10px;
+	width: 100%;
+	text-align: left;
+	color: #333333;
+	line-height: 1.4;
+}
+.simplesquare {
+	background-color: #0079BF;
+	display: inline-block;
+	height: 36px;
+	opacity: .7;
+	width: 36px;
+	border-radius: 5px;
+	margin-right: 3px;
+}
+
+/**-----Board Select END-----**/

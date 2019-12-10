@@ -1,0 +1,10 @@
+/** Listops button **/
+.listopsbutton {
+padding: 3px 10px;
+margin: 0 5%;
+}
+.listopsbutton:hover {
+	background: #298FCA;
+	color: #fff;
+}
+/** ------------**/

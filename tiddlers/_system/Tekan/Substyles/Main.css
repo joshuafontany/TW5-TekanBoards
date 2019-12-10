@@ -1,0 +1,19 @@
+.ui {
+	font: 12px Arial,Helvetica,sans-serif;
+margin: 0;
+	line-height: 1.3em;
+}
+
+.ui {
+	font-size: 12px !important;
+	
+}
+.ui {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 40px 50px 1fr;
+      grid-template-rows: 40px 50px 1fr;
+  background-color: #0079bf;
+  color: #eee;
+}

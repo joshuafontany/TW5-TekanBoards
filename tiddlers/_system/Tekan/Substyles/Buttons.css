@@ -1,0 +1,51 @@
+ /* Modal Button */
+.materialbutton {
+	background-color: #26a69a;
+	border-radius: 2px;
+	border: none;
+	color: #fff;
+	height: 30px;
+	letter-spacing: .5px;
+	line-height: 30px;
+	padding: 0 2rem;
+	text-decoration: none;
+	margin: 5px 1px;}
+
+ 
+ /* Any button*/
+.semitransparentborderless {
+	background: transparent;
+	border: none;
+	color: rgba(255,255,255,.7);
+	padding: 7px; }
+ 
+/*Add new card button*/
+.smallgreenbutton {
+	background: -webkit-linear-gradient(top,#5AAC44 0,#519839 100%);
+	background: linear-gradient(to bottom,#5AAC44 0,#519839 100%);
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 22px;
+	margin: 0 6px 0 0;
+	min-height: 30px;
+	outline: 0;
+	padding: 4px 1pc;
+	vertical-align: top; }
+ 
+ 
+.tc-dropzone p { margin:0 }
+
+ 
+.wheatbordertextbox textarea {
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	height: auto;
+	padding: 6px 12px;
+    width: 100%;
+	 }
+
+
+/*--------------*/

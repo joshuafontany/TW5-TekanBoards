@@ -1,0 +1,48 @@
+/* Task List */
+ 
+.list-card-operation {
+	background-clip: padding-box;
+	background-color: #EDEFF0;
+	background-origin: padding-box;
+	opacity: 0;
+	 }
+
+
+.list ul li.tc-draggable {
+  position: relative;  }
+
+
+.list ul li.tc-draggable:hover {
+	background-color: #EDEFF0;
+	border-bottom-color: #D6DADC;  }
+ 
+	.list ul li.tc-draggable:hover .list-card-operation { opacity: 1; }
+ 
+
+.icon-sm{
+	color: #400;
+	display: inline-block;
+	font-family: trellicons;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: 400;
+	height: 30px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	width: 30px;
+	color: #999;
+}
+
+
+
+
+ 
+.listitem {
+  	position: absolute;
+	right: 3px;
+	top: 3px;
+  	/*z-index: 40; */
+	border-radius: 3px;
+	padding: 4px;	}
+	.listitem:hover { background-color: #D6DADC; }

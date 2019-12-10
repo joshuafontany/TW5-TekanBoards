@@ -1,0 +1,68 @@
+.lists {
+	display: -webkit-box;
+	display: -ms-flexbox
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;
+	overflow-x: auto;
+
+}
+.lists > * {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-left: 10px;
+}
+.lists::after {
+  content: '';
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 10px;
+          flex: 0 0 10px;
+}
+
+.list {
+  width: 270px;
+  height: calc(100% - 10px - 17px);
+}
+.list > * {
+  background-color: #e2e4e6;
+  color: #333;
+  padding: 0 8px;
+}
+.list header {
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+.list footer {
+  line-height: 36px;
+  color: #888;
+}
+.list .footer {
+   border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.list ul {
+  list-style: none;
+  margin: 0;
+  max-height: calc(100% - 36px - 36px);
+  overflow-y: auto;
+}
+.list ul li {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+}
+
+.list ul li img {
+  display: block;
+  width: calc(100% + 2 * 10px);
+  margin: -10px 0 10px -10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}

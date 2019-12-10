@@ -1,0 +1,19 @@
+.navbar {
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar.app {
+  background-color: #0067a3;
+  font-size: 1.5rem;
+}
+.navbar.board {
+	font: 18px Arial,Helvetica,sans-serif;
+	cursor: default;
+	font-weight: 700;
+	line-height: 30px;
+}

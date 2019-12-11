@@ -1,5 +1,5 @@
 created: 20170930061825480
-modified: 20170930062646673
+modified: 20191211211514161
 tags: $:/Tekan/ListOpsButton
 title: $:/Tekan/ListOpsButton/CustomFilter
 type: text/vnd.tiddlywiki
@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 <$button 
 tag="li" 
 actions=<<customfiltermodal>>>
-Customise Filter
+Customize Filter
 </$button>

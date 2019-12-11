@@ -1,7 +1,7 @@
 caption: Switch
 created: 20170910184159665
 creator: Riz
-modified: 20191210204708728
+modified: 20191211205349905
 modifier: Riz
 tags: $:/Tekan $:/tags/PageControls
 title: $:/Tekan/Switch
@@ -11,6 +11,6 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[shadows+tiddlers]tag[$:/tags/PageTemplate]!has[draft.of]]">
 <$action-setfield tags="TekanMode"/>
 </$list>
-<$action-setfield $tiddler="$:/Tekan/Substyles" tags="$:/Tekan $:/tags/Stylesheet"/>
+<$action-setfield $tiddler="$:/Tekan/Substyles/Layout/Fullscreen" tags="$:/Tekan/Substyles $:/tags/Stylesheet"/>
 <$action-setfield $tiddler="$:/Tekan/Main" tags="$:/Tekan $:/tags/PageTemplate"/>
 </$button>

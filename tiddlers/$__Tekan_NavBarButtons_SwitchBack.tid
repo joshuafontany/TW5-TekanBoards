@@ -1,5 +1,5 @@
 created: 20170923171537598
-modified: 20191210204654248
+modified: 20191211205327664
 tags: $:/Tekan/Button $:/Tekan/NavBarButtons
 title: $:/Tekan/NavBarButtons/SwitchBack
 type: text/vnd.tiddlywiki
@@ -8,6 +8,6 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[shadows+tiddlers]tag[TekanMode]!has[draft.of]]">
 <$action-setfield tags="$:/tags/PageTemplate"/>
 </$list>
-<$action-setfield $tiddler="$:/Tekan/Substyles" tags="$:/Tekan"/>
+<$action-setfield $tiddler="$:/Tekan/Substyles/Layout/Fullscreen" tags="$:/Tekan/Substyles"/>
 <$action-setfield $tiddler="$:/Tekan/Main" tags="$:/Tekan"/>
 </$button>

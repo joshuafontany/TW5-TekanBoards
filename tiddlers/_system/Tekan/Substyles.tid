@@ -1,11 +1,11 @@
 caption: CSS Substyles
 created: 20191210193452712
-modified: 20191210213154545
-tags: $:/Tekan
+modified: 20191211205440376
+tags: $:/Tekan $:/tags/Stylesheet
 title: $:/Tekan/Substyles
 type: text/vnd.tiddlywiki
 
-<$list filter="[all[shadows+tiddlers]tag[$:/Tekan/Substyles]!has[draft.of]]">
+<$list filter="[all[shadows+tiddlers]tag[$:/Tekan/Substyles]!has[draft.of]] -[[$:/Tekan/Substyles/Layout/Fullscreen]]">
 {{}}
 
 </$list>

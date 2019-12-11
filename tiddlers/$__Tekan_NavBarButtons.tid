@@ -1,8 +1,8 @@
 caption: Nav bar buttons
 created: 20170910185559552
 creator: Riz
-list: $:/Tekan/NavBoard/Buttons/RearrangeLists $:/Tekan/NavBoard/Buttons/DeleteBoard $:/Tekan/NavBarButtons/AddNewBoard $:/Tekan/NavBarButtons/SwitchBack
-modified: 20191210212634474
+list: $:/Tekan/NavBarButtons/Sidebar $:/Tekan/NavBarButtons/RearrangeLists $:/Tekan/NavBarButtons/SwitchBack $:/Tekan/NavBarButtons/Save $:/Tekan/NavBarButtons/Import $:/Tekan/NavBarButtons/AddNewBoard $:/Tekan/NavBarButtons/DeleteBoard
+modified: 20191211202603856
 modifier: Riz
 tags: $:/Tekan/NavBar
 title: $:/Tekan/NavBarButtons
@@ -33,7 +33,7 @@ type: text/vnd.tiddlywiki
 \end
 
 <$set name="currentBoard" value={{$:/Tekan/CurrentBoard}}>
-<$list filter="[tag[$:/Tekan/Button]]"><$transclude/></$list>
+<$list filter="[tag[$:/Tekan/NavBarButtons]sort[list]]"><$transclude/></$list>
 </$set>
 
 

@@ -1,0 +1,11 @@
+caption: Fullscreen Layout Substyles (toggled)
+created: 20191211204745508
+modified: 20191211205737296
+tags: $:/Tekan/Substyles
+title: $:/Tekan/Substyles/Layout/Fullscreen
+
+<!-- This is removed from the $:/Tekan/Substyles list-filter, and then toggled manually. -->
+
+.header-user {
+    position: absolute !important;
+    right: 0 !important; }

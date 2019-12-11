@@ -1,6 +1,6 @@
 caption: Sidebar
 created: 20170928170709949
-modified: 20191210210812185
+modified: 20191211201046664
 tags: $:/Tekan
 title: $:/Tekan/Sidebar
 type: text/vnd.tiddlywiki
@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 
 <div class="sidebar">
 <div class="header">
-      <span class="sidebartitle">Test<br/>Board Settings</span>
+      <span class="sidebartitle">{{$:/Tekan/CurrentBoard}}<br/> Settings</span>
       <$button 
       		class="tc-btn-invisible" 
       		style="float:right;fill:#acacac;" 

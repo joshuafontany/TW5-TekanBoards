@@ -1,0 +1,20 @@
+caption: Switch Actions
+created: 20191211210305051
+modified: 20191211210740176
+tags: $:/Tekan
+title: $:/Tekan/Switch/Actions
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[shadows+tiddlers]tag[TekanMode]!has[draft.of]limit[1]]" emptyMessage="""
+  <$list filter="[all[shadows+tiddlers]tag[$:/tags/PageTemplate]!has[draft.of]]">
+  <$action-setfield tags="TekanMode"/>
+  </$list>
+  <$action-setfield $tiddler="$:/Tekan/Substyles/Layout/Fullscreen" tags="$:/Tekan/Substyles $:/tags/Stylesheet"/>
+  <$action-setfield $tiddler="$:/Tekan/Main" tags="$:/Tekan $:/tags/PageTemplate"/>
+""" >
+<$list filter="[all[shadows+tiddlers]tag[TekanMode]!has[draft.of]]">
+<$action-setfield tags="$:/tags/PageTemplate"/>
+</$list>
+<$action-setfield $tiddler="$:/Tekan/Substyles/Layout/Fullscreen" tags="$:/Tekan/Substyles"/>
+<$action-setfield $tiddler="$:/Tekan/Main" tags="$:/Tekan"/>
+</$list>

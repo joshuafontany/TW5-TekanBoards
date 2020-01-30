@@ -40,8 +40,8 @@
 	overflow-y: auto;
 	padding: 0 10px 10px;
 }
-label{
-	display: block;
+.pop-over-content label{
+	display: inline-block;
 	font-weight: 700;
 	margin-bottom: 4px;
 	color: #333;

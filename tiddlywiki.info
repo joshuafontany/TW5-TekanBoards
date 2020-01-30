@@ -2,8 +2,7 @@
     "description": "Basic client-server edition",
     "plugins": [
         "tiddlywiki/tiddlyweb",
-        "tiddlywiki/filesystem",
-        "tiddlywiki/highlight"
+        "OokTech/Bob"
     ],
     "themes": [
         "tiddlywiki/vanilla",
